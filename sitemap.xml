@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%200%20%3A%20Introduction/</loc>
+         <lastmod>2021-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%201%20%3A%20Op%C3%A9rateurs%20arithm%C3%A9tiques/</loc>
+         <lastmod>2021-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%202%20%3A%20Variables/</loc>
+         <lastmod>2021-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%203%20%3A%20Cha%C3%AEnes%20de%20caract%C3%A8res%201/</loc>
+         <lastmod>2021-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%204%20%3A%20Cha%C3%AEnes%20de%20caract%C3%A8res%202/</loc>
+         <lastmod>2021-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%205%20%3A%20Listes%201/</loc>
+         <lastmod>2021-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
