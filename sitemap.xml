@@ -2,47 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://valentinlageard.github.io/cours_python/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%200%20%3A%20Introduction/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%201%20%3A%20Op%C3%A9rateurs%20arithm%C3%A9tiques/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%2010%20%3A%20Comparateurs/</loc>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%202%20%3A%20Variables/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%203%20%3A%20Cha%C3%AEnes%20de%20caract%C3%A8res%201/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%204%20%3A%20Cha%C3%AEnes%20de%20caract%C3%A8res%202/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%205%20%3A%20Listes%201/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%206%20%3A%20Listes%202/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/cours_python/Cours%207%20%3A%20Dictionnaires%20et%20Tuples/</loc>
-         <lastmod>2021-10-18</lastmod>
+         <lastmod>2021-11-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%208%20%3A%20Introduction%20%C3%A0%20turtle/</loc>
+         <lastmod>2021-11-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/cours_python/Cours%209%20%3A%20Conditionnel%20if/</loc>
+         <lastmod>2021-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
