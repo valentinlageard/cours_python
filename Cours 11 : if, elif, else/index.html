@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://valentinlageard.github.io/cours_python/Cours%202%20%3A%20Variables/">
+        <link rel="canonical" href="https://valentinlageard.github.io/cours_python/Cours%2011%20%3A%20if%2C%20elif%2C%20else/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
     
     
       
-        <title>Cours 2 : Variables - Cours Python</title>
+        <title>Cours 11 : if, elif, else - Cours Python</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cours-2-variables" class="md-skip">
+        <a href="#cours-11-if-elif-else" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cours 2 : Variables
+              Cours 11 : if, elif, else
             
           </span>
         </div>
@@ -246,58 +246,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Cours 2 : Variables
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Cours%202%20%3A%20Variables/" class="md-nav__link">
         Cours 2 : Variables
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lire" class="md-nav__link">
-    Lire
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exercices" class="md-nav__link">
-    Exercices
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -428,11 +381,58 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Cours%2011%20%3A%20if%2C%20elif%2C%20else/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cours 11 : if, elif, else
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Cours 11 : if, elif, else
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lire" class="md-nav__link">
+    Lire
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercices" class="md-nav__link">
+    Exercices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -533,23 +533,43 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/valentinlageard/cours_python/edit/master/docs/Cours 2 : Variables.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/valentinlageard/cours_python/edit/master/docs/Cours 11 : if, elif, else.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="cours-2-variables">Cours 2 : Variables</h1>
+                <h1 id="cours-11-if-elif-else">Cours 11 : if, elif, else</h1>
 <h2 id="lire">Lire</h2>
 <ul>
-<li>"Les variables sont comme des étiquettes" p.25</li>
-<li>"Utiliser les variables" p.26-29</li>
+<li>Instructions si-alors-sinon (p.64)</li>
+<li>Instructions if et elif (p.65-66)</li>
 </ul>
 <h2 id="exercices">Exercices</h2>
-<p>Dans un programme nommé <code>variables</code> :</p>
+<p>Dans un programme nommé <code>potions.py</code> :</p>
 <ul>
-<li>Crée une variable nommée <code>mon_nombre_prefere</code> égale à ton nombre préférée. Puis affiche ce qu'il y a dans cette variable.</li>
-<li>Crée une variable nommée <code>nombre_de_pieces_d_or</code> égale à 25.</li>
-<li>Affiche le résultat de <code>mon_nombre_prefere</code> multiplié par <code>nombre_de_pieces_d_or</code>.</li>
+<li>Crée 2 variables : <code>nombre_potions</code> égale à un entier et <code>argent</code> égale à un entier.</li>
+<li>En utilisant <code>if</code>, <code>elif</code> et <code>else</code>, implémente les conditions suivantes :<ul>
+<li>Si <code>nombre_potions</code> est supérieur à 0, affiches "Je bois une potion." et enlève 1 à <code>nombre_potions</code>.</li>
+<li>Si <code>nombre_potions</code> est égal à 0 mais que <code>argent</code> est supérieur ou égal 100, affiches "Je bois une potion." et enlève 100 à <code>argent</code>.</li>
+<li>Si <code>nombre_potions</code> est égal à 0 et <code>argent</code> est inférieur à 100, affiches "Tu ne peux pas boire de potion.".</li>
+</ul>
+</li>
+</ul>
+<p>Dans un programme nommé <code>pass.py</code> :</p>
+<ul>
+<li>Crée une variable <code>pass</code> égale à une string.</li>
+<li>Crée une variable <code>humeur_du_gardien</code> égale à un entier entre 0 et 10.</li>
+<li>En utilisant <code>if</code>, <code>elif</code> et <code>else</code>, implémente les conditions suivantes :<ul>
+<li>Si <code>pass</code> est égale à <code>"VIP"</code>, affiches : "Bienvenue VIP !"</li>
+<li>Si <code>pass</code> est égale à <code>"VISITEUR"</code>, alors il y a 3 possibilités :<ul>
+<li>Soit le gardien est de mauvaise humeur (<code>humeur_du_gardien</code> est inférieure à 3). Dans ce cas affiches : "Veuillez procéder à une vérification des papiers."</li>
+<li>Soit le gardien est de bonne humeur (<code>humeur_du_gardien</code> supérieur à 7). Dans ce cas affiches : "Bienvenue visiteur."</li>
+<li>Soit le gardien n'est ni de bonne humeur, ni de mauvaise humeur. Dans ce cas affiches : "Veuillez prendre connaissance des règles avant de procéder."</li>
+</ul>
+</li>
+<li>Si <code>pass</code> est égale à quelque-chose d'autre, affiche "ACCES NON AUTHORISE !"</li>
+</ul>
+</li>
 </ul>
                 
               
@@ -570,7 +590,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../Cours%201%20%3A%20Op%C3%A9rateurs%20arithm%C3%A9tiques/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cours 1 : Opérateurs arithmétiques" rel="prev">
+        <a href="../Cours%2010%20%3A%20Comparateurs/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cours 10 : Comparateurs" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -579,20 +599,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Cours 1 : Opérateurs arithmétiques
+              Cours 10 : Comparateurs
             </div>
           </div>
         </a>
       
       
         
-        <a href="../Cours%203%20%3A%20Cha%C3%AEnes%20de%20caract%C3%A8res%201/" class="md-footer__link md-footer__link--next" aria-label="Next: Cours 3 : Chaînes de caractères 1" rel="next">
+        <a href="../Cours%2012%20%3A%20and%20et%20or/" class="md-footer__link md-footer__link--next" aria-label="Next: Cours 12 : and et or" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Cours 3 : Chaînes de caractères 1
+              Cours 12 : and et or
             </div>
           </div>
           <div class="md-footer__button md-icon">
