@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://valentinlageard.github.io/cours_python/Cours%209%20%3A%20Conditionnel%20if/">
+        <link rel="canonical" href="https://valentinlageard.github.io/cours_python/Cours%2016%20%3A%20Input/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
     
     
       
-        <title>Cours 9 : Conditionnel if - Cours Python</title>
+        <title>Cours 16 : Input - Cours Python</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cours-9-conditionnel-if" class="md-skip">
+        <a href="#cours-16-input" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cours 9 : Conditionnel if
+              Cours 16 : Input
             
           </span>
         </div>
@@ -351,58 +351,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Cours 9 : Conditionnel if
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Cours%209%20%3A%20Conditionnel%20if/" class="md-nav__link">
         Cours 9 : Conditionnel if
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lire" class="md-nav__link">
-    Lire
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exercice" class="md-nav__link">
-    Exercice
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -503,11 +456,58 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Cours%2016%20%3A%20Input/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cours 16 : Input
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Cours 16 : Input
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lire" class="md-nav__link">
+    Lire
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercices" class="md-nav__link">
+    Exercices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -545,8 +545,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercice" class="md-nav__link">
-    Exercice
+  <a href="#exercices" class="md-nav__link">
+    Exercices
   </a>
   
 </li>
@@ -563,27 +563,51 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/valentinlageard/cours_python/edit/master/docs/Cours 9 : Conditionnel if.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/valentinlageard/cours_python/edit/master/docs/Cours 16 : Input.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="cours-9-conditionnel-if">Cours 9 : Conditionnel if</h1>
+                <h1 id="cours-16-input">Cours 16 : Input</h1>
 <h2 id="lire">Lire</h2>
+<p>Pour l'instant, tous les programmes que nous avons fait pouvaient varier leur comportement en fonction des valeurs des variables que nous utilisions. Cependant, comment devrions nous faire si nous voulons utiliser ce que l'utilisateur du programme écrit ? Imaginons par exemple que nous voulions faire un programme qui permettrait de demander l'age de l'utilisateur. Pour ce faire, nous allons utiliser la fonction <code>input</code>.</p>
+<p>La fonction <code>input</code> prend comme argument une chaine de caractère qui correspond à la question que nous voulons poser à l'utilisateur. Cette question est affichée dans la console (comme quand on fait <code>print</code>). Cependant, le programme s'arrête et attend que l'utilisateur tape des caractères au clavier jusqu'à ce qu'il fasse la touche Entrée. Lorsqu'il clique sur Entrée, la fonction <code>input</code> récupère ce que l'utilisateur a tapé au clavier ce qui nous permet de l'utiliser.</p>
+<p>Voici par exemple un code utilisant <code>input</code> qui demande à l'utilisateur son prénom puis l'affiche.</p>
+<div class="highlight"><pre><span></span><code><span class="n">prénom</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Quel est ton prénom ? &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">prénom</span><span class="p">)</span>
+</code></pre></div>
+<p>Imaginons maintenant que nous voulions récupérer un nombre (int ou float) comme par exemple l'age de l'utilisateur. Nous pourrions faire un code tel que le suivant :</p>
+<div class="highlight"><pre><span></span><code><span class="n">age</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Quel est ton age ? &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+</code></pre></div>
+<p>Jusque là tout va bien. Cependant, si nous souhaitons faire des opérations arithmétiques (addition, division, ...) ou comparatives (supérieur à, égal à, ...), alors nous allons vite avoir un problème.</p>
+<div class="highlight"><pre><span></span><code><span class="n">age</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Quel est ton age ? &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span> <span class="o">+</span> <span class="mi">10</span><span class="p">)</span>
+</code></pre></div>
+<p>Ce code va nous renvoyer l'erreur suivante : <code>TypeError: can only concatenate str (not "int") to str</code>. La raison en est que <code>input</code> nous renvoit toujours une chaine de caractère (str) et non pas un nombre (int ou float) ! La variable <code>age</code> contient donc une chaine de caractère et quand nous essayons de l'additioner à 10, python échoue en nous disons qu'il n'est pas possible d'additioner ensemble une chaîne de caractère et un nombre.</p>
+<p>Afin de résoudre ce problème, nous avons besoin de convertir la valeur de retour de <code>input</code> en un nombre comme suit :</p>
+<div class="highlight"><pre><span></span><code><span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Quel est ton age ? &quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span> <span class="o">+</span> <span class="mi">10</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="exercices">Exercices</h2>
+<p>Dans un programme nommé <code>carte_identité.py</code> :</p>
 <ul>
-<li>Poser des questions avec if et else (p.59)</li>
-<li>Instructions if (p.60)</li>
-<li>Un bloc est un groupe d'instructions (p.60-62) (IMPORTANT !)</li>
+<li>Récupère dans une variable <code>prénom</code> le prénom de l'utilisateur en utilisant <code>input</code> avec une question appropriée.</li>
+<li>Récupère dans une variable <code>nom</code> le nom de l'utilisateur en utilisant <code>input</code> avec une question appropriée.</li>
+<li>Récupère dans une variable <code>age</code> l'age de l'utilisateur en utilisant <code>input</code> avec une question appropriée.</li>
+<li>Récupère dans une variable <code>taille</code> la taille de l'utilisateur en utilisant <code>input</code> avec une question appropriée.</li>
+<li>Récupère dans une variable <code>nationalité</code> la nationalité de l'utilisateur en utilisant <code>input</code> avec une question appropriée.</li>
+<li>Affiche "Je m'appelle &lt;prénom> &lt;nom>, j'ai &lt;age> ans, je fait &lt;taille> cm et mon pays d'origine est &lt;nationalité>."</li>
 </ul>
-<h2 id="exercice">Exercice</h2>
-<p>Dans un programme nomme <code>boutique.py</code> :</p>
+<p>Dans un programme nommé <code>montagnes_russes_input.py</code> :</p>
 <ul>
-<li>Crée une variable nommée <code>euros</code> qui contient un nombre de ton choix.</li>
-<li>Fais une condition if qui affiche "Tu peux t'acheter des chewing-gums." si <code>euros</code> est supérieur à 2.</li>
-<li>Fais une condition if qui affiche "Tu peux t'acheter des légos." si <code>euros</code> est supérieur à 30.</li>
-<li>Fais une condition if qui affiche "Tu peux t'acheter une playstation." si <code>euros</code> est supérieur à 350.</li>
-<li>Fais une condition if qui affiche "Tu es trop riche et tu donnes toute ta fortune." si <code>euros</code> est supérieur à 5000000. De plus, <code>euros</code> doit être mis à 0 (car tu perds ta fortune !).</li>
-<li>Enfin, affiche "Il me reste &lt;euros>" en remplaçant &lt;euros> par ce qu'il y a dans la variable.</li>
+<li>Dans une boucle infinie (<code>while True:</code>)<ul>
+<li>Récupère dans une variable <code>age</code> et une variable <code>taille</code> l'âge et la taille de l'utilisateur en utilisant <code>input</code>.</li>
+<li>Affiche "Tu peux faire cette montagne russe tout seul." si <code>age</code> est supérieur ou égal à 7 et si <code>taille</code> est supérieure ou égale à 80cm.</li>
+<li>Affiche "Tu peux faire cette montagne russe seulement si tu es accompagné." si <code>age</code> est supérieur ou égal à 7 et si <code>taille</code> est entre 60cm inclus et 80cm exclus.</li>
+<li>Affiche "Tu ne peux pas faire cette montagne russe." si <code>age</code> est strictement inférieur à 7 ou si <code>taille</code> est strictement inférieure à 60.</li>
+</ul>
+</li>
 </ul>
                 
               
@@ -604,7 +628,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../Cours%208%20%3A%20Introduction%20%C3%A0%20turtle/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cours 8 : Introduction à turtle" rel="prev">
+        <a href="../Cours%2015%20%3A%20Boucles%20while/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cours 15 : Boucles while" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -613,26 +637,11 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Cours 8 : Introduction à turtle
+              Cours 15 : Boucles while
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="../Cours%2010%20%3A%20Comparateurs/" class="md-footer__link md-footer__link--next" aria-label="Next: Cours 10 : Comparateurs" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Cours 10 : Comparateurs
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
       
     </nav>
   
