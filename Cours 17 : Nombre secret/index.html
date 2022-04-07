@@ -62,6 +62,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#cours-17-nombre-secret" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -466,10 +471,80 @@
 
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cours 17 : Nombre secret
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Cours 17 : Nombre secret
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercice" class="md-nav__link">
+    Exercice
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
   
     <li class="md-nav__item">
       <a href="../Cours%2018%20%3A%20Fonctions%201/" class="md-nav__link">
         Cours 18 : Fonctions 1
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cours%2019%20%3A%20Fonctions%202/" class="md-nav__link">
+        Cours 19 : Fonctions 2
       </a>
     </li>
   
@@ -482,6 +557,38 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercice" class="md-nav__link">
+    Exercice
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -492,9 +599,30 @@
                   </a>
                 
                 
-                  <h1>Cours 17 : Nombre secret</h1>
-                
-                
+                <h1 id="cours-17-nombre-secret">Cours 17 : Nombre secret</h1>
+<h2 id="exercice">Exercice</h2>
+<p>Dans un programme nommé <code>nombre_secret.py</code> :</p>
+<ul>
+<li>Fais un jeu où l'ordinateur choisit un nombre aléatoire et le joueur doit le deviner.</li>
+<li>Le programme doit choisir un nombre aléatoire entre 1 et 10 en utilisant <code>random.randint(nombre_minimum, nombre_maximum)</code> (n'oublie pas d'importer le module <code>random</code>)</li>
+<li>Le joueur doit avoir 4 essais pour deviner le nombre.</li>
+<li>Une fois qu'une partie est terminée (gagnée ou perdue), une nouvelle partie doit se relancer automatiquement.</li>
+<li>Le nombre d'essai et le minimum et maximum du nombre secret doivent être stockés dans des variables au début du programme et qui doivent être utilisés au bon endroit dans le programme afin de permettre de choisir le nombre d'essai, le minimum et le maximum en changeant seulement la variable au début du programme.</li>
+<li>A chaque essai, le programme doit :<ul>
+<li>Dire au joueur entre combien et le minimum et maximum du nombre secret.</li>
+<li>Demander au joueur un nombre.</li>
+<li>Si le nombre entré par le joueur est le bon. Le jeu doit féliciter le joueur.</li>
+<li>Si le nombre entré est plus petit ou plus grand, le jeu doit informer le joueur et commencer un nouvel essai s'il en reste au joueur.</li>
+<li>Si le nombre n'est pas le bon est qu'il s'agissait du dernier essai, le jeu doit informer le joueur qu'il a perdu.</li>
+</ul>
+</li>
+</ul>
+<p>BONUS :</p>
+<ul>
+<li>Si le joueur a gagné, le jeu doit se relancer avec une plus grande difficulté (moins d'essais, nombre secret maximum plus grand, ...)</li>
+<li>Si le joueur a perdu, le jeu doit baisser la difficulté ou retourner à la difficulté originale.</li>
+<li>Des messages cachés qui ne s'affichent que si l'on réussit un certain niveau ou si on trouve le nombre secret du premier coup.</li>
+</ul>
                 
               
               
@@ -510,6 +638,41 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../Cours%2016%20%3A%20Input/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cours 16 : Input" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Cours 16 : Input
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Cours%2018%20%3A%20Fonctions%201/" class="md-footer__link md-footer__link--next" aria-label="Next: Cours 18 : Fonctions 1" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Cours 18 : Fonctions 1
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
